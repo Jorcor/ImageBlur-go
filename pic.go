@@ -230,12 +230,5 @@ func main() {
 		}
 	})
 
-	//writing output image to file
-	// fmt.Println("Outputting image.")
-	// f, err := os.Create("images/image.png")
-	// check(err)
-	// err = png.Encode(f, fin)
-	// check(err)
-
 	fmt.Println("Done.")
 }
